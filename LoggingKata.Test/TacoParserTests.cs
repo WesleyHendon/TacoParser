@@ -12,7 +12,7 @@ namespace LoggingKata.Test
         }
 
         [Theory]
-        [InlineData("Example")]
+        [InlineData(2023,2323, "Taco Bell Hoover")]
         public void ShouldParse(string str)
         {
             // TODO: Complete Should Parse
